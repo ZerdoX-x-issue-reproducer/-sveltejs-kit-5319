@@ -1,0 +1,21 @@
+{
+	"name": "@sveltejs/kit-5319",
+	"private": "true",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview",
+		"prepare": "svelte-kit sync",
+		"check": "svelte-check",
+		"check:watch": "svelte-check --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "1.0.0-next.52",
+		"@sveltejs/adapter-static": "^1.0.0-next.34",
+		"@sveltejs/kit": "1.0.0-next.355",
+		"svelte": "^3.44.0",
+		"svelte-check": "^2.7.1"
+	},
+	"type": "module"
+}
